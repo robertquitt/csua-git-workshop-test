@@ -1,9 +1,8 @@
-
 def main():
-    person_a = "Person A"
+    person_a = "Phillip E. Nunez"
     superlative_a = "best"
 
-    person_b = "Person B"
+    person_b = "Phillip E. Nunez"
     superlative_b = "worst"
 
     name = "Hilfinger"
@@ -11,5 +10,6 @@ def main():
     print("{0}: {1} is the {2} {3}!".format(person_a, name, superlative_a, position))
     print("{0}: {1} is the {2} {3}!".format(person_b, name, superlative_b, position))
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     main()
